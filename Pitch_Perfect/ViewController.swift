@@ -14,16 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("viewDidLoad")
     }
 
     @IBAction func recordAudio(_ sender: Any) {
-        print("Record Button Is Pressed")
         recordingLabel.text = "Recording in progress"
     }
     
     @IBAction func stopRecording(_ sender: Any) {
-        print("Stop Recording Button Is Pressed")
         recordingLabel.text = "Tap To Record"
     }
 }
